@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shopStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!--<link rel="icon" href="img/logoTitle.png">-->
+  <script src="shop.js" async></script>
+
+  <title> AlmaEyza Shop | &nbsp;Koleksi Model Pakaian</title>
+</head>
+
+<body onload="allBtnClickOnload()">
+  <!-- NAVBAR -->
+  <section id="header">
+    <a href="#"><img src="img/ikijoss.png" alt="" /></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Katalog</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+
+        <!--<li id="lg-bag">
+          <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a> -->
+        </li>
+        <a href="#" id="close"><i class="fa fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+     
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section id="page-header">
+
+    <h2>#Lihat-Katalog Baju</h2>
+
+    <p>Ada model terbaru nih silahkan di lihat...</p>
+
+  </section>
+
+  <!-- Filter buttons -->
+  <section id="filter-buttons-container" class="">
+    <div class="filter-title">
+      <h1>Collections</h1>
+    </div>
+    <div class="filter-buttons filter-button-group">
+      <button type="button" id="allItemsBtn"class="normal" data-filter="*">All</button>
+      <button type="button" class="normal" data-filter=".tshirt">Gamis</button>
+      <button type="button" class="normal" data-filter=".jeans">Tunik</button>
+      <button type="button" class="normal" data-filter=".dress">Dress</button>
+      <button type="button" class="normal" data-filter=".handbag">Gaun Pengantin</button>
+      <button type="button" class="normal" data-filter=".lipstick">Baju Muslim Anak</button>
+      <button type="button" class="normal" data-filter=".heels">Kemeja Laki-Laki/Anak</button>
+    </div>
+
+  </section>
+
+  <!-- Products -->
+
+
+  <section id="product1" class="section-p1">
+
+    <div class="pro-container">     
+
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gmb67.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Purple Pullover T-Shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+       
+      </div>
+      <div class="pro dress">
+        <img src="img/urbanic_img/tshirt/floral/dress1.jpg" alt="" />
+        <div class="des">
+          <span>Dress Muslim</span>
+          <h5>Floral Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+       
+      </div>
+      <div class="pro heels">
+        <img src="img/urbanic_img/heels/km1.jpg" alt="" />
+        <div class="des">
+          <span>Kemeja Laki-Laki</span>
+          <h5>Kemeja Dewasa Biru</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        
+        </div>
+       
+      </div>
+
+      <div class="pro jeans">
+        <img src="img/urbanic_img/jeans/tunik1.jpg" alt="" />
+        <div class="des">
+          <span>Baju Tunik</span>
+          <h5>Tunik Abu-abu</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+      
+      </div>
+
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gamis2.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Gamis Merah Merona</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+    
+      </div>
+      <div class="pro dress">
+        <img src="img/urbanic_img/tshirt/floral/drees2.jpg" alt="" />
+        <div class="des">
+          <span>Dress Muslim</span>
+          <h5>Floral Green Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+       
+      </div>
+      <div class="pro jeans">
+        <img src="img/urbanic_img/jeans/tunik2.jpg" alt="" />
+        <div class="des">
+          <span>Baju Tunik</span>
+          <h5>tunik maroon</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        
+        </div>
+       
+      </div>
+
+
+
+
+      <div class="pro handbag">
+        <img src="img/urbanic_img/handbags/gp1.jpg" alt="" />
+        <div class="des">
+          <span>Gaun Pengantin</span>
+          <h5>Gaun Hijau</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+        
+      </div>
+      <div class="pro heels">
+        <img src="img/urbanic_img/heels/km3.jpg" alt="" />
+        <div class="des">
+          <span>Kemeja Laki-Laki</span>
+          <h5>Kemeja Lengan Pendek</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+       
+      </div>
+      <div class="pro heels">
+        <img src="img/urbanic_img/heels/km2.jpg" alt="" />
+        <div class="des">
+          <span>Kemeja Laki-Laki</span>
+          <h5>Kemeja Lengan Panjang</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+       
+      </div>
+
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gamis3.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Gamis Pink Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+       
+        </div>
+       
+      </div>
+      <div class="pro handbag">
+        <img src="img/urbanic_img/handbags/gp2.jpg" alt="" />
+        <div class="des">
+          <span>Gaun Pengantin</span>
+          <h5>Gaun Pengantin biru</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+       
+        </div>
+        
+      </div>
+      <div class="pro lipstick">
+        <img src="img/urbanic_img/lipstick/bjma1.jpg" alt="" />
+        <div class="des">
+          <span>Baju Muslim Anak</span>
+          <h5>Baju Muslim Anak hitam</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+       
+      </div>
+
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gamis4.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Green Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+       
+      </div>
+      <div class="pro lipstick">
+        <img src="img/urbanic_img/lipstick/bjma2.jpg" alt="" />
+        <div class="des">
+          <span>Baju Muslim Anak</span>
+          <h5>Baju Muslim Anak Biru</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        
+        </div>
+       
+      </div>
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gmb23.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Gray Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+       
+      </div>
+
+      <div class="pro jeans">
+        <img src="img/urbanic_img/jeans/tunik4.jpg" alt="" />
+        <div class="des">
+          <span>Baju Tunik</span>
+          <h5>Tunik Merah</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+     
+      </div>
+
+      <div class="pro handbag">
+        <img src="img/urbanic_img/handbags/gp3.jpg" alt="" />
+        <div class="des">
+          <span>Gaun Pengantin</span>
+          <h5>Gaun Pengantin Ungu</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+      
+      </div>
+      <div class="pro lipstick">
+        <img src="img/urbanic_img/lipstick/gma3.jpg" alt="" />
+        <div class="des">
+          <span>Baju Muslim Anak</span>
+          <h5>Baju Muslim Anak Ungu</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+      
+      </div>
+
+      <div class="pro heels">
+        <img src="img/urbanic_img/heels/kma34.jpg" alt="" />
+        <div class="des">
+          <span>Kemeja Anak</span>
+          <h5>Kemeja Lengan Panjang Merah</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+       
+      </div>
+      <div class="pro dress">
+        <img src="img/urbanic_img/tshirt/floral/drees3.jpg" alt="" />
+        <div class="des">
+          <span>Drees Muslim</span>
+          <h5>Floral pink Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gamis5.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Pink Pullove Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+       
+        </div>
+       
+      </div>
+      <div class="pro heels">
+        <img src="img/urbanic_img/heels/km8.jpg" alt="" />
+        <div class="des">
+          <span>Kemeja Anak</span>
+          <h5>Kemeja Lengan Pendek</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+    
+      </div>
+      <div class="pro heels">
+        <img src="img/urbanic_img/heels/km6.jpg" alt="" />
+        <div class="des">
+          <span>Kemeja Anak</span>
+          <h5>Kemeja Lengan Panjang</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+    
+      </div>
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gamis6.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Pink Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+       
+      </div>
+
+
+
+      <div class="pro handbag">
+        <img src="img/urbanic_img/handbags/gp4.jpg" alt="" />
+        <div class="des">
+          <span>Gaun Pengantin</span>
+          <h5>Gaun Pengantin Putih</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        
+        </div>
+        
+      </div>
+
+      <div class="pro tshirt">
+        <img src="img/urbanic_img/tshirt/floral/gm24.jpg" alt="" />
+        <div class="des">
+          <span>Gamis</span>
+          <h5>Brown Pullover Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        
+        </div>
+       
+      </div>
+      <div class="pro jeans">
+        <img src="img/urbanic_img/jeans/tunik5.jpg" alt="" />
+        <div class="des">
+          <span>Baju Tunik</span>
+          <h5>Tunik Joss</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+        
+      </div>
+
+      <div class="pro dress">
+        <img src="img/urbanic_img/tshirt/floral/drees4.jpg" alt="" />
+        <div class="des">
+          <span>Dress Muslim</span>
+          <h5>Floral Avocado Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          
+        </div>
+     
+      </div>
+      <div class="pro lipstick">
+        <img src="img/urbanic_img/lipstick/bjma4.jpg" alt="" />
+        <div class="des">
+          <span>Baju Muslim Anak</span>
+          <h5>Baju Muslim Anak Floral</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+         
+        </div>
+       
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!-- Pagination -->
+
+  <!-- <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+  </section> -->
+
+  <!-- Newsletter -->
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Lihat Terus Katalog Kami</h4>
+      <p>
+        Dapatkan pembaruan Model tentang toko terbaru kami dan
+        <span>Penawaran Istimewa.</span>
+      </p>
+    </div>
+   
+  </section>
+
+  <!-- Footer -->
+  <footer class="section-p1">
+    
+     <body style="background-color:#FDF7FD;"> 
+    <div class="col">
+      <img class="logo" src="img/ikijoss.png" alt="logo" />
+      <h4>Contact</h4>
+       <p><b>Address:</b> Kedungsari, Gebog Kudus</p>
+       <p><b>Phone:</b> +62 8567 8975</p>
+      <p><b>Hours:</b> 10:00 - 18:00, Senin - Sabtu</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+         <i class="fab fa-facebook-f"
+            style="font-size:18px"
+              onclick="window.location.href='https://id-id.facebook.com/login/device-based/regular/login/?login_attempt=1';">
+            </i>
+            <i class="fab fa-instagram" style="font-size:18px"
+              onclick="window.location.href='https://instagram.com/almaeyza?igshid=NTc4MTIwNjQ2YQ==';"></i>
+            
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>Tentang</h4>
+      <a href="about.html">Tentang</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="contact.html">Kontak</a>
+    </div>
+    <div class="col">
+      <h4>Kontak</h4>
+      <a href="about.html">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="contact.html">Kontak</a>
+    </div>
+   
+    <div class="copyright">
+        <p>© 2023-2024 Alwi.com - E-Katalog Project Made by <span style="cursor: pointer;"
+            onclick="window.location.href='';"><b>Alwi Ma'ruf<b> &nbsp;</span> <i
+            style="color:#0071ac;font-size:18px;position: relative;top:1px;cursor: pointer;"></i>
+        </p>
+      </div>
+  </footer>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Isotope -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+
+
+  <!-- Custom JS file -->
+  <script src="script.js"></script>
+
+  <script>
+    // Shop Page Isotope Filter
+
+    // init Isotope
+    var $grid = $('.pro-container').isotope({
+      // options
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function ()
+    {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+      // $grid.isotope({ layoutMode: 'fitColumns' });
+
+    });
+  </script>
+</body>
+
+</html>
