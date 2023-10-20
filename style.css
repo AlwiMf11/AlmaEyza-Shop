@@ -126,8 +126,8 @@ body {
 /* Home Page */
 
 #hero {
-  background-image: url("img/bg_alma.jpg");
-  height: 90vh;
+  background-image: url("img/bg_alma.jpg") no-repeat center;
+  height: 90px;
   width: 100%;
   background-size: cover;
   background-position: top 60% right 50%;
@@ -318,9 +318,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-image: url("img/banner/almahira32.jpg");
+  background-image: url("img/banner/almahira32.jpg") no-repeat center;
   min-width: 580px;
-  height: 50vh;
+  height: 50px;
   background-size: cover;
   background-position: center;
   padding: 30px;
@@ -349,7 +349,7 @@ body {
 }
 
 #sm-banner .banner-box-2 {
-  background-image: url("img/banner/alma12.jpg");
+  background-image: url("img/banner/alma12.jpg") no-repeat center;
 }
 #banner-3 {
   display: flex;
