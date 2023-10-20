@@ -319,7 +319,7 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(img/banner/almahira32.jpg);
-  width: 110%;
+  min-width: 30%;
   height: 40vh;
   background-size: cover;
   background-position: center;
